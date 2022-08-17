@@ -11,7 +11,7 @@ I did nothing but edit the .css file.
 ## Instructions
 
 - On micro.blog/Design, install and enable `Simple Theme`.
-- Create a custom theme, called BnP.
-- Select this repository.
+- Create a custom theme and call it `BnP`.
+- Select this GitHub repository.
 
 That should do it. But if not, overwrite the .css file in the custom theme with the one in this repository.
