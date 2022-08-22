@@ -4,8 +4,8 @@
 	--base-fontsize: 1.15rem;
 	--header-scale: 1.25;
 	--line-height: 1.618;
-	--bg: #101010;
-	--accent-bg: #282828;
+	--bg: #212121;
+	--accent-bg: #2B2B2B;
 	--text: #DCDCDC;
 	--text-light: #ABABAB;
 	--border: #666;
@@ -31,7 +31,7 @@ body {
 	flex-direction: column;
 	flex: 1;
 	margin: 0 auto;
-	max-width: 50rem;
+	max-width: 54rem;  /* THE width. */
 	padding: 0 .5rem;
 	overflow-x: hidden;
 	word-break: break-word;
@@ -66,8 +66,7 @@ h3 {
 nav {
 	font-size: 1rem;
 	line-height: 2;
-	padding: 1rem 0;
-	text-decoration: none
+	padding: 1rem 0
 }
 
 nav a {
@@ -78,13 +77,12 @@ nav a {
 	display: inline-block;
 	padding: .1rem 1rem;
 	text-decoration: none;
-/*	transition: .4s*/
+	transition: .4s
 }
 
 nav a:hover {
 	color: var(--accent) !important;
-	border-color: var(--accent);
-	text-decoration: none
+	border-color: var(--accent)
 }
 
 nav a.current:hover {
@@ -107,7 +105,7 @@ h1 {
 
 h2 {
 	font-size: calc(var(--base-fontsize) * var(--header-scale) * var(--header-scale) * var(--header-scale));
-	margin-top: calc(var(--line-height) * 1.5rem)
+	margin-top: calc(var(--line-height) * 2.5rem)  /* More separation between posts. */
 }
 
 h3 {
@@ -132,12 +130,11 @@ h6 {
 
 a,
 a:visited {
-	color: var(--accent);
-	text-decoration: none
+	color: var(--accent)
 }
 
 a:hover {
-	text-decoration: underline
+	text-decoration: none
 }
 
 a button,
@@ -152,7 +149,7 @@ input[type=submit] {
 	color: var(--bg);
 	padding: .7rem .9rem;
 	margin: .5rem 0;
-/*	transition: .4s*/
+	transition: .4s
 }
 
 a button[disabled],
@@ -368,10 +365,7 @@ main img,
 main video {
 	max-width: 100%;
 	height: auto;
-	border-radius: 5px;
-	/* auto-center */
-	display: block;
-	margin: 0 auto
+	border-radius: 5px
 }
 
 figure {
