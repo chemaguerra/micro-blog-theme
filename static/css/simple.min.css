@@ -83,6 +83,7 @@ nav a {
 nav a:hover {
 	color: var(--accent) !important;
 	border-color: var(--accent)
+	text-decoration: none;
 }
 
 nav a.current:hover {
@@ -130,11 +131,12 @@ h6 {
 
 a,
 a:visited {
-	color: var(--accent)
+	color: var(--accent);
+	text-decoration: none
 }
 
 a:hover {
-	text-decoration: none
+	text-decoration: underline
 }
 
 a button,
