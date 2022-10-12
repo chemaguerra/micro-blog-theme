@@ -53,8 +53,9 @@ header {
 }
 
 header h1,
+header h5,
 header p {
-	margin: 0
+	margin: 1rem
 }
 
 h1,
